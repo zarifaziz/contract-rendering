@@ -2,6 +2,21 @@
 
 A React application that renders contract documents by parsing structured JSON data. This application displays a Service Agreement document with proper formatting, styling, and interactive elements.
 
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the application
+
 ## Features
 
 - **JSON Document Parsing**: Parses hierarchical JSON document structure
@@ -43,22 +58,6 @@ Both instances have `id: "Contract Date"` and will always show the same value.
 - **Bold**: Elements with `"bold": true`
 - **Italic**: Elements with `"italic": true`
 - **Underline**: Elements with `"underline": true`
-
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) to view the application
 
 ## Technologies Used
 
