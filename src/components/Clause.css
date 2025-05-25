@@ -1,0 +1,45 @@
+.clause {
+  display: flex;
+  margin: 16px 0;
+  align-items: baseline;
+}
+
+.clause-number {
+  font-weight: bold;
+  margin-right: 8px;
+  min-width: 25px;
+  color: #333;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.clause-content {
+  flex: 1;
+}
+
+/* Nested clauses (lettered items) */
+.clause-nested {
+  margin: 8px 0;
+  margin-left: 20px;
+}
+
+.clause-nested .clause-number {
+  font-size: 0.9em;
+  min-width: 35px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.clause-nested .clause-content {
+  text-align: justify;
+}
+
+/* Legacy support for deeply nested clauses */
+.clause .clause {
+  margin: 8px 0;
+  margin-left: 20px;
+}
+
+.clause .clause .clause-number {
+  font-size: 0.9em;
+}
